@@ -1,4 +1,4 @@
-    # Whatsapp Web AMOLED Style
+# Whatsapp Web AMOLED Style
 
 This is a Style Theme made for whatsapp web so it avoids burn in as most of the unnecesary pixels are turned off.
 
