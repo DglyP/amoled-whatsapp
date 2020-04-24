@@ -1175,7 +1175,8 @@
                 filter: blur(1px) grayscale(100) opacity(0.3);
                 transition: filter 300ms ease;
                 &._1f1zm { filter: blur(0px) opacity(1) };
-                &._1f1zm .dIyEr { width:0px };
+                //Only use this if you want to save more pixels
+                //&._1f1zm .dIyEr { width:0px };
                 &._1f1zm ._1WliW { filter: blur(0px) opacity(1) };
                 &:hover { filter: blur(0px) opacity(1) };
                 &.CxUIE { filter: opacity(1)};
