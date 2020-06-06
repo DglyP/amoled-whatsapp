@@ -375,7 +375,7 @@
             box-shadow: inner, bsh;
             button { c: ac }
         }
-
+        
         /// App -> Badges.
         ._3JEcM { c: cm cm hl }
         ._2e8Mu { c: ac ac hl }
@@ -422,7 +422,13 @@
 
         /// Intro alert for desktop applications.
         .IMBOA { margin-top: 16px i }
-        ._2a2hS { c: 0 0 bd }
+        ._1kdBg { c: 0 0 dark }
+        .m7gJ2{ color : #525252 }
+        ._1pNt0{
+            color : white;
+        }
+
+            
 
         /// Left -> Typing indicator.
         span[title *= 'typing...'], ._2ZAIy { c: ac }
@@ -1158,7 +1164,7 @@
             /._1HeQs.AYtad { c: 0 0 bg }
         }
         /// Search contacts/messages.
-        ._1AKfk {
+        ._2EoyP , ._3xpD_ {
             c: ac 0 t;
             box-shadow: 0 1px bd;
         }
@@ -1175,8 +1181,8 @@
                 filter: blur(1px) grayscale(100) opacity(0.3);
                 transition: filter 300ms ease;
                 &._1f1zm { filter: blur(0px) opacity(1) };
-                //Only use this if you want to save more pixels
-                //&._1f1zm .dIyEr { width:0px };
+                &._1f1zm .dIyEr { width:0px };
+                &._1f1zm .OUeyt { margin-left:37px };
                 &._1f1zm ._1WliW { filter: blur(0px) opacity(1) };
                 &:hover { filter: blur(0px) opacity(1) };
                 &.CxUIE { filter: opacity(1)};
@@ -1768,6 +1774,9 @@
                     height: 22px i;
                     background: linear-gradient(90deg, t, left 80%) i;
                 }
+                /._1q11a{
+                    background: linear-gradient(90deg, t, left 80%) i;
+                }
                 /// Stickers.
                 /._1i1U7._1UyGF div[style *= 'opacity'] { c: 0 0 left }
                 /// Audio messages.
@@ -1788,7 +1797,7 @@
                 }
             }
             /// Replies.
-            ._1iJeo {
+            ._1iJeo, ._2hHuA {
                 c: 0 0 bg;
                 &:hover { opacity: 0.8 }
             }
@@ -1959,7 +1968,7 @@
         [fill = '#09D261'] { v: green }
         [fill = '#E53935'] { v: red }
         /// Emoji/gif/sticker menu.
-        ._1vDUw {
+        ._1vDUw{
             c: 0 bd;
             /// Header in chat/popout.
             ._1qUma, /._3ZkhL._3NVMy ._1qUma {
@@ -2029,14 +2038,14 @@
             border-left: 1px solid bd;
         }
         /// Reply.
-        .rstyJ {
+        ._36Lgj {
             c: 0 0 bg;
             box-shadow: bsh, inset 0 1px bd i;
             /// Nickname.
             /._3Ye_R:not(#z) { c: cm }
             /// Content.
             > div:first-child:not(#z) {
-                margin: 4px 0 8px 66px;
+                margin: 4px 0 8px 6px;
                 box-shadow: inner;
                 c: 0 0 hl;
                 /.quoted-mention { c: cm }
